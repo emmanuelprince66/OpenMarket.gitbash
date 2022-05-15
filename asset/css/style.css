@@ -1,0 +1,69 @@
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: 'Courier New', Courier, monospace;
+
+ }
+
+ body {
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+.img {
+    width: 100px;
+    height: 80px;
+    
+}
+.image {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.wrapper {
+    height: 100vh;
+}
+
+.myColor {
+    background-image: linear-gradient( to right, #f800f8e5 50% , #f9d5232c 150%);
+}
+.myShadow {
+    box-shadow: 0 5px 10px #111;
+}
+.myBtn {
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 20px;
+ 
+}
+.myHr {
+    height: 2px;
+    border-radius: 100px;
+}
+.myLinkBtn {
+    border-radius: 100px;
+    width: 50%;
+    border: 2px solid #fff;
+}
+@media (max-width:720px) {
+    .wrapper {
+        margin: 2px;
+        margin-top: 20px;
+        
+    }
+    .rem {
+        margin: 15px 0px 15px 0px;
+    }
+    .abs {
+        position: relative;
+    }
+    .myBtn {
+        margin-top: 50px;
+    }
+    .forgot {
+        position: absolute;
+        top: 325px;
+        left: 40px;
+        margin: 20px 0px 20px 0px;
+    }
+}

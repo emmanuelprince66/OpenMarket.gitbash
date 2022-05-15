@@ -1,0 +1,130 @@
+*{
+
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   }
+   #footer {
+    margin-bottom: 0px;
+}
+body {
+    height: 100vh;
+    background-color: #f2f2f2;
+
+}
+.shows {
+    margin: 5px 0px 5px 5px;
+    padding: 5px;
+}
+.img {
+    width: 230px;
+    height: 230px;
+    border-bottom-left-radius: 30px ;
+}
+#zone {
+    margin: 10px 0px 10px 0px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: 1px solid #343a40;
+    padding: 15px;
+}
+.header {
+    background-color: lightgray;
+    
+}
+#zone > .flex {
+    display: grid;
+    grid-template-columns:repeat(12,1fr);
+    grid-template-rows: 200px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.title {
+    grid-column: 2/5;
+    margin-left: 30px;
+    overflow-wrap: break-word;
+}
+.pdesc {
+    grid-column: 5/9;
+    font-size: 20px;
+    overflow-wrap: break-word;
+}
+.pd {
+    overflow-wrap: break-word;
+    font-size: 25px;
+}
+.btn {
+    grid-column: 10/12;
+}
+#filler {
+    margin-top: 30px;
+    border-radius: 50px;
+    background-color: darkgray;
+ 
+}
+#logout {
+    display: block;
+    width: 100px;
+}
+.grade {
+    display: flex;
+    float: right;
+}
+.cool {
+   margin-right: 5px;
+   width: 100px;
+}
+.dropdown {
+    margin-right: 50px;
+}
+@media (max-width:720px) {
+    .flex {
+        height: 450px;
+    }
+    .img {
+    grid-column: 1/12;
+    width: 350px;
+    border-top-right-radius:30px ;
+}  
+.title {
+    margin-top: 30px;
+    margin-left: 20px;
+    grid-column: 1/12;
+  
+}
+.grade {
+    margin-top: 10px;
+    float: none;
+    display: flex;
+    flex-direction: column;
+}
+.edit {
+    width: 100%;
+    margin: 10px 0px 8px 0px;
+}
+.pdesc {
+    grid-column: 1/12;
+    padding: 10px;
+ 
+}
+.btn {
+    grid-column: 1/12;
+}
+    #filler {
+        padding: 0px 15px 0px 15px;
+        height: 70vh;
+    }
+    .bigg {
+        padding: 30px;
+    }
+    .imgup {
+        padding-bottom: 10px;
+    }
+
+.navbar {
+    box-shadow: 0px 0px 15px black;
+}
+
+}
